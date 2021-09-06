@@ -1,0 +1,14 @@
+ /*   BOTOES */
+
+ .botao {
+   background-color: var(--amarelo);
+   text-align: center;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 700;
+   color:var(--branco);
+   width: 100%;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   box-shadow: 10px 1px 30px #FFCB473D;
+   border: none;
+ }
