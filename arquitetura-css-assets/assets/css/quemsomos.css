@@ -63,3 +63,21 @@
 .pessoa__imagem--marcela {
   background-image: url(../img/pessoas/marcela.jpg);
 }
+
+@media screen and (min-width: 0px) {
+  .pessoas {
+    flex-direction: column;
+  }
+  .pessoa {
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .pessoas {
+    flex-direction: row;
+  }
+  .pessoa {
+    margin-bottom: 0;
+  }
+}
